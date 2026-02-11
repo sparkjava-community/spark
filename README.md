@@ -1,8 +1,10 @@
 # Spark Framework - Community Maintained
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](./LICENSE)
+[![CI](https://github.com/sparkjava-community/spark/actions/workflows/ci.yml/badge.svg)](https://github.com/sparkjava-community/spark/actions/workflows/ci.yml)
 [![Maven Package](https://img.shields.io/badge/maven-2.9.4.1--SNAPSHOT-green)](https://github.com/sparkjava-community/spark/packages)
 
+```
 > A tiny web framework for Java - community-maintained fork
 
 ## 🚨 About This Fork
