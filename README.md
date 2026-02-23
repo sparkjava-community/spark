@@ -34,8 +34,8 @@ Add GitHub Packages repository:
 ```xml
 <repositories>
     <repository>
-        <id>github-sparkjava-community</id>
-        <url>https://maven.pkg.github.com/sparkjava-community/spark</url>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
     </repository>
 </repositories>
 ```
@@ -44,27 +44,11 @@ Add dependency:
 
 ```xml
 <dependency>
-    <groupId>io.github.sparkjava-community</groupId>
-    <artifactId>spark-core</artifactId>
-    <version>2.9.4.1-SNAPSHOT</version>
+    <groupId>com.github.sparkjava-community</groupId>
+    <artifactId>spark</artifactId>
+    <version>2.9.4.2</version>
 </dependency>
 ```
-
-### Authentication
-
-GitHub Packages requires authentication. Add to `~/.m2/settings.xml`:
-
-```xml
-<servers>
-    <server>
-        <id>github-sparkjava-community</id>
-        <username>YOUR_GITHUB_USERNAME</username>
-        <password>YOUR_GITHUB_TOKEN</password>
-    </server>
-</servers>
-```
-
-[Create a GitHub Personal Access Token](https://github.com/settings/tokens) with `read:packages` permission.
 
 ---
 
